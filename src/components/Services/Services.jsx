@@ -8,6 +8,40 @@ const Services = () => {
       <h2>Recent Internships</h2>
 
       <div className="container services__container">
+      <article className='service'>
+
+{/* ***************Start of SportsBrat***************** */}
+          <div className="service__head">
+            <h3>Sports Brat Technologies Private Limited, New Delhi </h3>
+          </div>
+
+          <ul className='service__list'>
+{/* 1st */}
+            <li className='time'>
+              <BiCheck className='service__list-item'/>
+              <p >FullStack Developer | September 2023 - Present</p>
+            </li>
+{/* 2nd */}
+            <li>
+              <BiCheck className='service__list-item'/>
+              <p>Developing a comprehensive full-stack website.</p>
+            </li>
+{/* 3rd */}
+            <li>
+              <BiCheck className='service__list-item'/>
+              <p>Implementation of robust backend functionalities for project management.</p>
+            </li>
+{/* 4th */}
+            <li>
+              <BiCheck className='service__list-item'/>
+              <p>MERN tech stack is used in this.</p>
+            </li>
+          </ul>
+        </article>
+{/* *************END OF SportsBrat*************** */}
+
+
+
         <article className='service'>
 
 {/* ***************Start of RamJanki***************** */}
@@ -19,7 +53,7 @@ const Services = () => {
 {/* 1st */}
             <li className='time'>
               <BiCheck className='service__list-item'/>
-              <p >Software Developer | November 2023 - Present</p>
+              <p >Frontend Developer | (Freelancer) November 2023 - Present</p>
             </li>
 {/* 2nd */}
             <li>
@@ -36,12 +70,6 @@ const Services = () => {
               <BiCheck className='service__list-item'/>
               <p>Testing and bugs identification.</p>
             </li>
-{/* 5th */}
-            {/* <li>
-              <BiCheck className='service__list-item'/>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-            </li> */}
-
           </ul>
         </article>
 {/* *************END OF RamJanki*************** */}
