@@ -35,8 +35,8 @@ const data = [
     id: 1,
     image: IMG1,
     title: 'Netflix-Clone Project',
-    github: 'https://github.com/UttkarshSharma23/netflix-clone',
-    demo: 'https://netflix-clone-afo.pages.dev/'
+    github: 'https://github.com/UttkarshSharma23/netflix-clone-project',
+    demo: 'https://netflix-clone-projec.vercel.app/'
   },
   {
     id: 2,
