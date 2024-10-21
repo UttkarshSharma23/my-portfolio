@@ -1,7 +1,7 @@
 // Call to Action Created
 
 import React from 'react'
-import CV from "../../assets/Uttkarsh Sharma_Resume.pdf"
+import CV from "../../assets/Uttkarsh.pdf"
 
 const CTA = () => {
   return (
