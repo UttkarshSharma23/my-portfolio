@@ -67,7 +67,14 @@ const Experience = () => {
               <small className='text-light'>Experienced</small>
               </div>
               </article>
-
+{/* 7th Detail  */}          
+          <article className='experience__details'>
+              <BsFillPatchCheckFill className='experience__detials-icon'/>
+              <div>
+              <h4>Angular</h4>
+              <small className='text-light'>Intermediate</small>
+              </div>
+              </article>
           </div>
         </div>
        {/*******END OF FRONTEND*******/}
@@ -85,17 +92,25 @@ const Experience = () => {
             <small className='text-light'>Experienced</small>
             </div>
           </article>
-{/* 
-2nd Detial
+
+{/* 2nd Detial */}
 <article className='experience__details'>
             <BsFillPatchCheckFill className='experience__detials-icon'/>
             <div>
-            <h4>MySQL</h4>
+            <h4>Insomnia</h4>
             <small className='text-light'>Basic</small>
             </div>
-          </article> */}
+          </article>
+{/* 3rd Detail */}
+          <article className='experience__details'>
+            <BsFillPatchCheckFill className='experience__detials-icon'/>
+            <div>
+            <h4>Postman</h4>
+            <small className='text-light'>Basic</small>
+            </div>
+          </article>
 
-{/* 3rd Detial */}
+{/* 4th Detial */}
           <article className='experience__details'>
             <BsFillPatchCheckFill className='experience__detials-icon'/>
             <div>
@@ -104,7 +119,7 @@ const Experience = () => {
             </div>
           </article>
 
-{/* 4th Detial */}
+{/* 5th Detial */}
 <article className='experience__details'>
             <BsFillPatchCheckFill className='experience__detials-icon'/>
             <div>
@@ -112,14 +127,14 @@ const Experience = () => {
             <small className='text-light'>Intermediate</small>
             </div>
           </article>
-{/* 5th Detial */}
-{/* <article className='experience__details'>
+{/* 6th Detial */}
+<article className='experience__details'>
             <BsFillPatchCheckFill className='experience__detials-icon'/>
             <div>
-            <h4>PHP</h4>
+            <h4>ASP.net</h4>
             <small className='text-light'>Basic</small>
             </div>
-          </article> */}
+          </article>
           </div>
         </div>
 {/********** END OF BACKEND**************/}
