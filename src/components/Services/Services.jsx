@@ -28,7 +28,7 @@ const Services = () => {
 {/* 3rd */}
             <li>
               <BiCheck className='service__list-item'/>
-              <p>Implementation of robust backend functionalities for project management.</p>
+              <p>Implementation of robust software for Field force.</p>
             </li>
 {/* 4th */}
             <li>
