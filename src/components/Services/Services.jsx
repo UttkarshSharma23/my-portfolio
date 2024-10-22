@@ -5,11 +5,41 @@ const Services = () => {
   return (
     <section id='services'>
       <h5>What I have done</h5>
-      <h2>Recent Internships</h2>
+      <h2>Work Done</h2>
 
       <div className="container services__container">
       <article className='service'>
+{/* ***************Start of SportsBrat***************** */}
+          <div className="service__head">
+            <h3>PANACEA BIOTEC, New Delhi </h3>
+          </div>
 
+          <ul className='service__list'>
+{/* 1st */}
+            <li className='time'>
+              <BiCheck className='service__list-item'/>
+              <p >FullStack Developer | April 2024 - Present</p>
+            </li>
+{/* 2nd */}
+            <li>
+              <BiCheck className='service__list-item'/>
+              <p>Developing a comprehensive full-stack software</p>
+            </li>
+{/* 3rd */}
+            <li>
+              <BiCheck className='service__list-item'/>
+              <p>Implementation of robust backend functionalities for project management.</p>
+            </li>
+{/* 4th */}
+            <li>
+              <BiCheck className='service__list-item'/>
+              <p>Angular as frontend,C# with ASP.net as backend and mongoDB as database tech stack is used in this.</p>
+            </li>
+          </ul>
+        </article>
+{/* *********************END of NIKHAAR */}
+
+      <article className='service'>
 {/* ***************Start of SportsBrat***************** */}
           <div className="service__head">
             <h3>Sports Brat Technologies Private Limited, New Delhi </h3>
@@ -19,7 +49,7 @@ const Services = () => {
 {/* 1st */}
             <li className='time'>
               <BiCheck className='service__list-item'/>
-              <p >FullStack Developer | September 2023 - Present</p>
+              <p >FullStack Developer | September 2023 - Janurary 2024</p>
             </li>
 {/* 2nd */}
             <li>
@@ -53,7 +83,7 @@ const Services = () => {
 {/* 1st */}
             <li className='time'>
               <BiCheck className='service__list-item'/>
-              <p >Frontend Developer | (Freelancer) November 2023 - Present</p>
+              <p >Frontend Developer | (Freelancer) November 2023 - March 2024</p>
             </li>
 {/* 2nd */}
             <li>
